@@ -1,11 +1,80 @@
 h1 {
-  font-family: "bely-display", sans-serif;
-  font-weight: 400;
+  font-family: inge-variable, sans-serif;
   font-style: normal;
+  font-variation-settings: "slnt" -12;
 }
 
 h2 {
-  font-family: "roca", sans-serif;
-  font-weight: 700;
+  font-family: articulat-cf, sans-serif;
   font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.hero {
+  background: #f5f4e6;
+  text-align: center;
+}
+
+.hero-name {
+  font-size: 200px;
+  color: #ce1512;
+}
+
+.btn-font {
+  font-family: articulat-cf, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #f5f4e6;
+}
+
+.btn-display {
+  width: 175px;
+  height: 75px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(206, 21, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(206, 21, 18, 1) 100%,
+    rgba(255, 27, 0, 1) 10%
+  );
+  position: relative;
+}
+.btn-font,
+.btn-display:hover {
+  color: #ce1512;
+  background: transparent;
+  box-shadow: none;
+  color: black;
+}
+
+.btn-display:before,
+.btn-display:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #ce1512;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn-font,
+.btn-display:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btn-display:hover:before,
+.btn-display:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
 }
