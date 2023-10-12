@@ -1,3 +1,10 @@
+:root {
+  --main-color: #ce1512;
+  --background-color: #f5f4e6;
+  --heading-font-size: 200px;
+  --paragraph-font-size: 30px;
+}
+
 h1 {
   font-family: inge-variable, sans-serif;
   font-style: normal;
@@ -8,17 +15,25 @@ h2 {
   font-family: articulat-cf, sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 30px;
 }
 
 .hero {
-  background: #f5f4e6;
+  background: #c4cbe2;
   text-align: center;
+  padding: 160px 20px;
 }
 
 .hero-name {
   font-size: 200px;
-  color: #ce1512;
+  color: #211e19;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.hero-text {
+  color: #211e19;
+  font-size: 20px;
+  margin-top: 0px;
 }
 
 .btn-font {
@@ -27,7 +42,7 @@ h2 {
   font-weight: 100;
   font-size: 20px;
   margin-top: 15px;
-  color: #f5f4e6;
+  color: #e7dfde;
 }
 
 .btn-display {
@@ -36,20 +51,19 @@ h2 {
   line-height: 42px;
   padding: 0;
   border: none;
-  background: rgb(206, 21, 18);
+  background: rgb(174, 159, 33);
   background: linear-gradient(
     0deg,
-    rgba(206, 21, 18, 1) 100%,
-    rgba(255, 27, 0, 1) 10%
+    rgb(174, 159, 33) 100%,
+    rgb(196, 182, 64) 10%
   );
   position: relative;
 }
-.btn-font,
+
 .btn-display:hover {
-  color: #ce1512;
+  color: #ae9f21;
   background: transparent;
   box-shadow: none;
-  color: black;
 }
 
 .btn-display:before,
@@ -60,7 +74,7 @@ h2 {
   right: 0;
   height: 2px;
   width: 0;
-  background: #ce1512;
+  background: #ae9f21;
   box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
     4px 4px 5px 0px #0002;
   transition: 400ms ease all;
@@ -77,4 +91,29 @@ h2 {
 .btn-display:hover:after {
   width: 100%;
   transition: 800ms ease all;
+}
+
+.btn-display:hover .btn-font:hover {
+  color: #211e19;
+}
+
+.homepage {
+  background: #dcd9d1;
+  padding: 160px 20px;
+}
+.weather-title {
+  color: #211e19;
+  font-size: 50px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.paragraph-blurb {
+  font-family: articulat-cf, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: #211e19;
+
+  line-height: 30px;
 }
