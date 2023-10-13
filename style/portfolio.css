@@ -28,12 +28,25 @@ h2 {
   color: #211e19;
   letter-spacing: 2px;
   margin-bottom: 0px;
+  margin-top: -20px;
+}
+
+@media (max-width: 500px) {
+  .hero-name {
+    font-size: 100px;
+  }
+  .hero {
+    padding: 260px 20px;
+  }
+  .weather-pic {
+    margin-top: -700px;
+  }
 }
 
 .hero-text {
   color: #211e19;
   font-size: 20px;
-  margin-top: 0px;
+  margin-top: -px;
 }
 
 .btn-font {
@@ -98,13 +111,24 @@ h2 {
 }
 
 .homepage {
-  background: #dcd9d1;
+  background: #f8f6ee;
   padding: 160px 20px;
 }
+
+.weather-pic {
+  margin-top: -5px;
+  border: 5px solid #babfcf;
+}
+
+.weather-pic-2 {
+  margin-top: 80px;
+  border: 5px solid #babfcf;
+}
+
 .weather-title {
   color: #211e19;
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 10px;
   letter-spacing: 2px;
 }
 
@@ -116,4 +140,18 @@ h2 {
   color: #211e19;
 
   line-height: 30px;
+}
+
+.paragraph-blurb-2 {
+  font-family: articulat-cf, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: #211e19;
+
+  line-height: 30px;
+}
+
+.title-and-blurb {
+  margin-top: 90px;
 }
