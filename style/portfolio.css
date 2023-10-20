@@ -155,3 +155,13 @@ h2 {
 .title-and-blurb {
   margin-top: 90px;
 }
+
+/* ^ index page */
+
+ .about-heading {
+  font-size: 20px;
+  color: purple
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  margin-top: -20px;
+}
