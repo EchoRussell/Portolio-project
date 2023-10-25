@@ -6,13 +6,13 @@
 }
 
 h1 {
-  font-family: inge-variable, sans-serif;
+  font-family: "inge-variable", sans-serif;
   font-style: normal;
   font-variation-settings: "slnt" -12;
 }
 
 h2 {
-  font-family: articulat-cf, sans-serif;
+  font-family: "articulat-cf", sans-serif;
   font-style: normal;
   font-weight: 100;
 }
@@ -31,22 +31,10 @@ h2 {
   margin-top: -20px;
 }
 
-@media (max-width: 500px) {
-  .hero-name {
-    font-size: 100px;
-  }
-  .hero {
-    padding: 260px 20px;
-  }
-  .weather-pic {
-    margin-top: -700px;
-  }
-}
-
 .hero-text {
   color: #211e19;
   font-size: 20px;
-  margin-top: -px;
+  margin-top: 2px;
 }
 
 .btn-font {
@@ -158,10 +146,77 @@ h2 {
 
 /* ^ index page */
 
- .about-heading {
-  font-size: 20px;
-  color: purple
+.about {
+  background: #c4cbe2;
+  padding: 160px 20px;
+}
+
+.first-heading {
+  font-size: 100px;
   letter-spacing: 2px;
-  margin-bottom: 0px;
-  margin-top: -20px;
+  color: #211e19;
+}
+
+.secondary-heading {
+  color: #211e19;
+  font-size: 25px;
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.about-paragraph p {
+  font-family: var(--bs-body-font-family);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: #211e19;
+  line-height: 30px;
+  width: 50%;
+}
+
+.headshot {
+  margin-left: 50px;
+  border-radius: 20px;
+  width: 325px;
+  margin-top: 15px;
+}
+
+.about-btn {
+  text-align: center;
+}
+
+/* about page^ */
+
+@media (max-width: 500px) {
+  .hero-name {
+    font-size: 100px;
+  }
+  .hero {
+    padding: 260px 20px;
+  }
+  .weather-pic {
+    margin-top: -700px;
+  }
+  .about {
+    text-align: center;
+  }
+  .headshot {
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 125px;
+  }
+  .first-heading {
+    margin-top: -60px;
+    font-size: 80px;
+  }
+  .secondary-heading {
+    margin-top: -50px;
+    font-size: 20px;
+  }
+  .about-btn {
+    width: 175px;
+    height: 75px;
+    margin: 0 auto;
+  }
 }
