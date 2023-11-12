@@ -377,3 +377,9 @@ h2 {
     margin: 0 auto;
   }
 }
+@media (max-width: 575px) {
+  .contact-card {
+    height: 600px;
+    width: 300px;
+  }
+}
