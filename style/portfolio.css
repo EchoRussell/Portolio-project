@@ -281,6 +281,47 @@ h2 {
 
 /*work^ */
 
+.contact-container {
+  background: #c4cbe2;
+  text-align: center;
+  padding: 110px 100px;
+}
+
+.contact-card {
+  background: #f8f6ee;
+  height: 565px;
+  width: 446px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.girl-icon {
+  border-radius: 50%;
+  margin-top: 43px;
+}
+
+.contact-heading-1 {
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 32px;
+}
+
+.contact-heading-2 {
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  color: rgba(33, 30, 25, 0.2);
+  margin-top: 22px;
+}
+
+.contact-btn {
+  margin-top: 25px;
+}
+
+/*contact^*/
+
 @media (max-width: 500px) {
   .hero-name {
     font-size: 100px;
@@ -322,5 +363,17 @@ h2 {
   .item {
     width: 400px;
     align-items: center;
+  }
+
+  .contact-card {
+    height: 565px;
+    width: 300px;
+  }
+  .girl-icon {
+    width: 50%;
+  }
+  .all-contact-info {
+    width: 50%;
+    margin: 0 auto;
   }
 }
