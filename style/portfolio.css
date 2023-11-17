@@ -338,6 +338,61 @@ nav a:hover {
 }
 
 /*navigation^*/
+.footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(174, 159, 33, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 62px;
+  border-radius: 10px;
+}
+
+.footer-work {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #211e19;
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: #211e19;
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 51px;
+}
+
+footer .btn {
+  margin-top: 20px;
+}
+
+.email-action-call {
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 16px;
+  margin-top: 55px;
+  color: #211e19;
+  background-color: rgb(195, 203, 226, 0.5);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+/*footer^*/
 
 @media (max-width: 500px) {
   .hero-name {
