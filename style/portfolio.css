@@ -272,7 +272,7 @@ h2 {
 
 .girl-icon {
   border-radius: 50%;
-  margin-top: 43px;
+  margin-top: 20px;
 }
 
 .contact-heading-1 {
@@ -291,8 +291,53 @@ h2 {
 }
 
 .contact-btn {
-  margin-top: 25px;
+  margin-top: 0px;
 }
+
+.grid-container #contact-instagram-icon {
+  font-size: 20px;
+
+  color: #211e19;
+  background-color: rgb(195, 203, 226, 0.5);
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+.grid-container #contact-dribbble-icon {
+  font-size: 20px;
+
+  color: #211e19;
+  background-color: rgb(195, 203, 226, 0.5);
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+.grid-container #contact-linkedin-icon {
+  font-size: 20px;
+
+  color: #211e19;
+  background-color: rgb(195, 203, 226, 0.5);
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+.grid-container #contact-behance-icon {
+  font-size: 20px;
+
+  color: #211e19;
+  background-color: rgb(195, 203, 226, 0.5);
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+.social-handle {
+  color: #ae9f21;
+  font-size: 20px;
+  font-family: "articulat-cf", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+/*rgb(195, 203, 226, 0.5)
 
 /*contact^*/
 #work,
