@@ -193,7 +193,7 @@ h2 {
 
 .work {
   background: #f8f6ee;
-  padding: 600px 100px;
+  padding: 800px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ h2 {
 .slider {
   margin: auto;
   height: 100px;
-  margin-top: -400px;
+  margin-top: -600px;
   justify-content: center;
 }
 
@@ -258,7 +258,7 @@ h2 {
 .contact-container {
   background: #c4cbe2;
   text-align: center;
-  padding: 110px 100px;
+  padding: 200px 20px;
 }
 
 .contact-card {
