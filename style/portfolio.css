@@ -99,6 +99,15 @@ h2 {
   color: #211e19;
 }
 
+.github {
+  text-decoration: none;
+  color: #211e19;
+  font-family: articulat-cf, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+}
+
 .homepage {
   background: #f8f6ee;
   padding: 160px 20px;
