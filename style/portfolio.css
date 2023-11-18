@@ -193,7 +193,7 @@ h2 {
 
 .work {
   background: #f8f6ee;
-  padding: 800px 20px;
+  padding: 750px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ h2 {
 .slider {
   margin: auto;
   height: 100px;
-  margin-top: -600px;
+  margin-top: -500px;
   justify-content: center;
 }
 
