@@ -449,6 +449,18 @@ footer .social-links a {
   border-radius: 10px;
 }
 
+.work-footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(174, 159, 33, 0.2);
+  padding: 20px;
+  width: 1000px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 62px;
+  border-radius: 10px;
+}
+
 #icon-change .social-links a {
   background-color: rgb(195, 203, 226, 0.5);
 }
@@ -508,11 +520,13 @@ footer .social-links a {
   .work-title {
     font-size: 100px;
   }
+
   .item {
     width: 400px;
     align-items: center;
   }
 }
+
 @media (max-width: 575px) {
   .contact-card {
     height: 600px;
