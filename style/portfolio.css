@@ -193,7 +193,7 @@ h2 {
 
 .work {
   background: #f8f6ee;
-  padding: 380px 100px;
+  padding: 600px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +217,7 @@ h2 {
 .slider {
   margin: auto;
   height: 100px;
-  margin-top: -200px;
+  margin-top: -400px;
   justify-content: center;
 }
 
@@ -236,6 +236,7 @@ h2 {
   cursor: pointer;
   text-decoration: none;
   color: #ae9f21;
+  margin-top: -250px;
 }
 
 .slider {
@@ -387,9 +388,24 @@ footer .social-links a {
   font-size: 16px;
   margin-top: 55px;
   color: #211e19;
-  background-color: rgb(195, 203, 226, 0.5);
+  background-color: rgb(248, 246, 238, 0.7);
   padding: 10px 14px;
   border-radius: 50%;
+}
+
+#colour-footer .footer-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 246, 238, 0.7);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 62px;
+  border-radius: 10px;
+}
+
+#icon-change .social-links a {
+  background-color: rgb(195, 203, 226, 0.5);
 }
 
 /*footer^*/
